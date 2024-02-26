@@ -1,0 +1,36 @@
+#homeContainer {
+    width : 100%;
+    height : screen;
+    text-align: center;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding-top : 20px;
+}
+.HomeSection{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 10px;
+}
+.homeSectionText{
+    font-size: large;
+    font-weight: 700;
+}
+#homeSeparator{
+    width : 10px;
+    height : screen;
+    background-color: white;
+}
+.homebutton{
+    width : 50%;
+    border-radius: 10px;
+    background-color: black;
+    &:hover{
+        background-color: rgb(65, 65, 65);
+        cursor: pointer;
+    }
+}
+.homebutton img{
+    width : 50%;
+}
